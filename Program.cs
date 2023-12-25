@@ -1,7 +1,6 @@
 ﻿using System;
 
-namespace RefactoringGuru.DesignPatterns.AbstractFactory.Conceptual
-{
+
    
     public interface IAbstractFactory
     {
@@ -135,4 +134,3 @@ namespace RefactoringGuru.DesignPatterns.AbstractFactory.Conceptual
             new Client().Main();
         }
     }
-}
